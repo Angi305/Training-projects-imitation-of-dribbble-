@@ -1,0 +1,60 @@
+.container-2 {
+  position: relative;
+  font-style: sans-serif;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.girl{
+  position: absolute;
+  margin-left: 67%;
+  opacity: 30%;
+  border-radius: 10%;
+  width: 30%;
+  margin-top: 2%;
+}
+.makeup{
+  position: absolute;
+  width: 35%;
+  margin-left: 33%;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.nails{
+  width: 30%;
+  position: absolute;
+  margin-top: 13%;
+  border-radius: 10%;
+  opacity: 30%;
+  margin-right: 50%;
+}
+.olf{
+  position: absolute;
+  font-size: 800%;
+  color: #303BAC;
+  margin-top: 10%;
+  margin-left: 30%;
+  font-family: fantasy;
+  z-index: 1!important;
+}
+.cases{
+  position: absolute;
+  text-decoration: underline;
+  color: black;
+  margin-top: 31%;
+  margin-left: 47%;
+}
+@media only screen and (max-width: 600px) {
+  .olf{
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  .cases{
+    margin-left: 135px;
+    
+  }
+  .makeup{
+    background-position: center center;
+  }
+}

@@ -1,0 +1,151 @@
+.container-5 {
+    position: relative;
+    font-style: sans-serif;
+    min-height: 100vh;
+  }
+  
+  
+  .chat{
+      position: absolute;
+      cursor: pointer;
+      margin-top: 23px;
+      margin-left: 10px;
+     
+
+  }
+  .coffe{
+      display: inline;
+      margin-left: 40%;
+      margin-top: 10%!important;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .hello{
+    margin-top:5%;
+    width: 63%;
+    margin-left: 20%;
+  }
+ 
+.button{
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-left: 28%;
+    cursor: pointer;
+}
+.form-group .form-control {
+    border-bottom: 1px;
+    border-style: none none solid none;
+    border-radius:0; 
+    border-color: #000;
+    margin-top: 3px;
+  }
+  
+  .form-group .form-control:focus {
+      box-shadow: none;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+    
+  }
+.input-text {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input-text:focus-visible,
+.input-text:focus
+ {
+        outline: none;
+}
+.pages{
+    margin-top: 10%;
+    margin-left: 28%;
+    
+}
+.responsive {
+  max-width: 250px;
+  height: auto;
+  margin-left: 40px;
+
+}
+@media only screen and (max-width: 1337px) and (min-width: 600px) {
+  .chat {
+    max-width: 350px;
+  }
+
+  .coffe{
+    max-width: 250px;
+  }
+
+  .number{
+    max-width: 250px;
+  }
+  .pages{
+    max-width: 150px;
+  }
+  .input-text{
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .chat{
+    display: none;
+    visibility: hidden;
+  }
+ 
+  .hello{
+    display: none;
+    visibility: hidden;
+  }
+  .coffe{
+    font-size: 28px;
+  
+  }
+  .input-text{
+    padding: 20px 20px;
+    margin: 15px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .pages{
+    margin-left: 10px;
+    text-justify: inter-word;
+  }
+  .button{
+    margin-right: 100px;
+  }
+  .coffe{
+    margin-left: 25px!important;
+    font-size: 150%;
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+ 
+  .chat{
+    max-width: 250px;
+  }
+  .hello {
+    max-width: 150px !important;
+    
+  }
+  .coffe{
+   max-width: 250px;
+  }
+  .input-text{
+    max-width: 350px;
+  }
+  
+  
+}
+
